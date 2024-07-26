@@ -41,8 +41,8 @@ $(document).ready(function(){
 document.addEventListener('visibilitychange',
 function(){
     if(document.visibilityState === "visible"){
-        document.title = "Portfolio | Sajan Sharma";
-        $("#favicon").attr("href","assests/images/favicon.jpg");
+        document.title = "Portfolio | Sunny Raj";
+        $("#favicon").attr("href","assests/images/profile.jpeg");
     }
     else {
         document.title = "Come Back To Portfolio";
